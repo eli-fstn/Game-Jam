@@ -29,7 +29,7 @@ func process_animation() -> void:
 func play_animation(prefix: String, dir: Vector2) -> void:
 	if abs(dir.x) >= abs(dir.y):
 		sprite.flip_h = dir.x > 0
-		sprite.play(prefix + "_right")
+		sprite.play(prefix + "_left")
 	else:
 		if dir.y > 0:
 			sprite.play(prefix + "_front")
