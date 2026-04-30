@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://e7uhjqu3tf2a"
-path="res://.godot/imported/Top grass.PNG-b42d9757d962f150bcf5dab5e8924644.ctex"
+uid="uid://detvk4vrlyi5u"
+path="res://.godot/imported/hills (unfinished).PNG-646c196ce61c96a09381885424342180.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Tileset/Path/Top grass.PNG"
-dest_files=["res://.godot/imported/Top grass.PNG-b42d9757d962f150bcf5dab5e8924644.ctex"]
+source_file="res://Assets/Tileset/Hills/hills (unfinished).PNG"
+dest_files=["res://.godot/imported/hills (unfinished).PNG-646c196ce61c96a09381885424342180.ctex"]
 
 [params]
 

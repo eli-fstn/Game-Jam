@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cxl1y1qfwdtlo"
-path="res://.godot/imported/hills .PNG-661d2ba78b52b06ea10d37b00a2b7a53.ctex"
+uid="uid://s4slk053g4j7"
+path="res://.godot/imported/Dirt tile.PNG-dd9f88115b0e750c0c264be0a9e8b749.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Tileset/Hills/hills .PNG"
-dest_files=["res://.godot/imported/hills .PNG-661d2ba78b52b06ea10d37b00a2b7a53.ctex"]
+source_file="res://Assets/Tileset/Pathway/Dirt tile.PNG"
+dest_files=["res://.godot/imported/Dirt tile.PNG-dd9f88115b0e750c0c264be0a9e8b749.ctex"]
 
 [params]
 

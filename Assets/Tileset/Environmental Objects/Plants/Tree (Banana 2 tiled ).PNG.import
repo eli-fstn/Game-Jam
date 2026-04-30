@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://vwrqdxb7md6q"
-path="res://.godot/imported/rocks.PNG-12f1d764f09196cec4138bb1f8245c88.ctex"
+uid="uid://c3je612gti7hw"
+path="res://.godot/imported/Tree (Banana 2 tiled ).PNG-5f173fd43cc594565d85e042fa35827a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Tileset/Environmental Objects/rocks.PNG"
-dest_files=["res://.godot/imported/rocks.PNG-12f1d764f09196cec4138bb1f8245c88.ctex"]
+source_file="res://Assets/Tileset/Environmental Objects/Plants/Tree (Banana 2 tiled ).PNG"
+dest_files=["res://.godot/imported/Tree (Banana 2 tiled ).PNG-5f173fd43cc594565d85e042fa35827a.ctex"]
 
 [params]
 

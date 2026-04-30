@@ -1,10 +1,10 @@
-[gd_scene format=3]
+[gd_scene format=3 uid="uid://dbiflo2yrd3hf"]
 
-[ext_resource type="PackedScene" path="res://Scenes/player.tscn" id="1"]
+[ext_resource type="PackedScene" uid="uid://dll30r7u78o0n" path="res://Scenes/player.tscn" id="1"]
 
-[node name="main" type="Node2D"]
+[node name="main" type="Node2D" unique_id=541302062]
 
-[node name="Sorted Layers" type="Node" parent="."]
+[node name="Sorted Layers" type="Node" parent="." unique_id=1950002202]
 
-[node name="Player" parent="Sorted Layers" instance=ExtResource("1")]
-position = Vector2(574, 315)
+[node name="Player" parent="Sorted Layers" unique_id=696442718 instance=ExtResource("1")]
+position = Vector2(449, -280)

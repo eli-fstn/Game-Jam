@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cb0xlulsbkvhx"
-path="res://.godot/imported/Dirt tile.PNG-dafe79cc9671402a0de2c415c98044ae.ctex"
+uid="uid://c2ypghcotnbat"
+path="res://.godot/imported/tree  mango revised.PNG-6b86da045869f4c9f55edac3e68a0689.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Tileset/Ground/Dirt tile.PNG"
-dest_files=["res://.godot/imported/Dirt tile.PNG-dafe79cc9671402a0de2c415c98044ae.ctex"]
+source_file="res://Assets/Tileset/Environmental Objects/Plants/tree  mango revised.PNG"
+dest_files=["res://.godot/imported/tree  mango revised.PNG-6b86da045869f4c9f55edac3e68a0689.ctex"]
 
 [params]
 
