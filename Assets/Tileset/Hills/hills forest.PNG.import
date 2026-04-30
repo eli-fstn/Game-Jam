@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://thp1cqv6oewb"
-path="res://.godot/imported/Manananggal.png-42226b4ea4411491e2731eb394f4a490.ctex"
+uid="uid://oahnjtgwo0xw"
+path="res://.godot/imported/hills forest.PNG-357a8fdb0e43ba623e19711891e60198.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Character/Manananggal.png"
-dest_files=["res://.godot/imported/Manananggal.png-42226b4ea4411491e2731eb394f4a490.ctex"]
+source_file="res://Assets/Tileset/Hills/hills forest.PNG"
+dest_files=["res://.godot/imported/hills forest.PNG-357a8fdb0e43ba623e19711891e60198.ctex"]
 
 [params]
 

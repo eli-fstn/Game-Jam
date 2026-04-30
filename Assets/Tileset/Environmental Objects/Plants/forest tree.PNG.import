@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://thp1cqv6oewb"
-path="res://.godot/imported/Manananggal.png-42226b4ea4411491e2731eb394f4a490.ctex"
+uid="uid://dubmcfd3wo10w"
+path="res://.godot/imported/forest tree.PNG-177470e58fd97f7ce929165c23b9c62c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Character/Manananggal.png"
-dest_files=["res://.godot/imported/Manananggal.png-42226b4ea4411491e2731eb394f4a490.ctex"]
+source_file="res://Assets/Tileset/Environmental Objects/Plants/forest tree.PNG"
+dest_files=["res://.godot/imported/forest tree.PNG-177470e58fd97f7ce929165c23b9c62c.ctex"]
 
 [params]
 
