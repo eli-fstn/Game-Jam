@@ -1,22 +1,31 @@
 extends CharacterBody2D
 
-const speed: float = 50
+const speed: float = 150
 var target = null
 var last_direction = Vector2.DOWN
+var stop_distance = 30
 
 @onready var final_enemy = $AnimatedSprite2D
 
 func _physics_process(delta: float) -> void:
 	if target:
 		_attack(delta)
+	else:
+		velocity = Vector2.ZERO
+	move_and_slide()
 
 func _attack(delta: float) -> void:
-	var direction = position.direction_to(target.position)
-	position += direction * speed * delta
+	var distance = global_position.distance_to(target.global_position)
+	var direction = global_position.direction_to(target.global_position)
 
-	if direction != Vector2.ZERO:
-		last_direction = direction
-		play_animation("walk", last_direction)
+	if distance > stop_distance:
+		velocity = direction * speed
+		if direction != Vector2.ZERO:
+			last_direction = direction
+			play_animation("walk", last_direction)
+	else:
+		velocity = Vector2.ZERO
+		play_animation("idle", last_direction)
 
 func _on_area_2d_body_entered(body: Node2D) -> void:
 	if body.name == "Player":
