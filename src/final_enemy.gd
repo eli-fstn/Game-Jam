@@ -5,6 +5,7 @@ var target = null
 var last_direction = Vector2.DOWN
 
 @onready var final_enemy = $AnimatedSprite2D
+@onready var wings_flapping = $AudioStreamPlayer2D
 
 func _physics_process(delta: float) -> void:
 	if target:
@@ -15,6 +16,8 @@ func _physics_process(delta: float) -> void:
 
 func _attack(_delta: float) -> void:
 	var direction = global_position.direction_to(target.global_position)
+	wings_flapping.pitch_scale = 0.9
+	wings_flapping.volume_db = 10
 
 	if direction != Vector2.ZERO:
 		velocity = direction * speed
