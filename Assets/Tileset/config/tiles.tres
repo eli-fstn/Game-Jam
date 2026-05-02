@@ -1431,6 +1431,7 @@ texture = ExtResource("6_dyg37")
 2:0/next_alternative_id = 3
 2:0/0 = 0
 2:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+2:0/0/physics_layer_1/polygon_0/points = PackedVector2Array(-8, 1.6000004, 8, 1.6000004, 4.8, 4.8, 3.1999998, 8, 3.1999998, 11.200001, 3.1999998, 14.4, 4.8, 19.2, 3.1999998, 22.4, -1.5999999, 22.4, -6.4, 20.800001, -3.1999998, 16, -3.1999998, 11.200001, -4.8, 4.8)
 2:0/1 = 1
 2:0/2 = 2
 1:4/size_in_atlas = Vector2i(5, 4)
