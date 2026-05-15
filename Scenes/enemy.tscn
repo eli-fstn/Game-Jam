@@ -5,6 +5,9 @@
 [ext_resource type="Script" uid="uid://be7e2lhyjiman" path="res://src/hurtbox.gd" id="2_1f0kj"]
 [ext_resource type="PackedScene" uid="uid://bd6jacjgrbpqq" path="res://Scenes/projectile.tscn" id="2_287tu"]
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_287tu"]
+size = Vector2(12, 18)
+
 [sub_resource type="AtlasTexture" id="AtlasTexture_hghv2"]
 atlas = ExtResource("1_hghv2")
 region = Rect2(32, 64, 32, 32)
@@ -67,8 +70,14 @@ size = Vector2(19, 25)
 radius = 91.0
 
 [node name="enemy" type="CharacterBody2D" unique_id=220594689]
+collision_layer = 128
+collision_mask = 7
 script = ExtResource("1_afpow")
 projectile = ExtResource("2_287tu")
+
+[node name="CollisionShape" type="CollisionShape2D" parent="." unique_id=1943933521]
+position = Vector2(0, 5)
+shape = SubResource("RectangleShape2D_287tu")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=596516986]
 sprite_frames = SubResource("SpriteFrames_287tu")
@@ -89,11 +98,11 @@ shape = SubResource("RectangleShape2D_ghaa6")
 
 [node name="ShootPoint" type="Marker2D" parent="." unique_id=563005241]
 
-[node name="Area2D" type="Area2D" parent="." unique_id=270815830]
+[node name="Sight" type="Area2D" parent="." unique_id=270815830]
 metadata/_edit_group_ = true
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=2144347311]
+[node name="SightShape" type="CollisionShape2D" parent="Sight" unique_id=2144347311]
 shape = SubResource("CircleShape2D_afpow")
 
 [connection signal="timeout" from="AttackCooldown" to="." method="_on_attack_cooldown_timeout"]
-[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_entered" from="Sight" to="." method="_on_area_2d_body_entered"]
