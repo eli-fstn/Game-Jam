@@ -8,7 +8,7 @@
 [ext_resource type="PackedScene" uid="uid://q2xqrdm5hd0a" path="res://Scenes/glowflowers.tscn" id="5_5v1tr"]
 [ext_resource type="PackedScene" uid="uid://bjsskmiesxx71" path="res://Scenes/crow_area.tscn" id="5_fo5ed"]
 [ext_resource type="PackedScene" uid="uid://c15fm8u3u5he1" path="res://Scenes/dog_area.tscn" id="7_o06y3"]
-[ext_resource type="PackedScene" path="res://Scenes/enemy.tscn" id="19_no8kt"]
+[ext_resource type="PackedScene" uid="uid://bpjl07rgypfqi" path="res://Scenes/enemy.tscn" id="19_no8kt"]
 
 [node name="world" type="Node2D" unique_id=40815832]
 position = Vector2(1029, -783)
