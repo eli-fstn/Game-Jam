@@ -7,11 +7,24 @@ var hitbox_offset: Vector2
 @onready var sprite = $AnimatedSprite2D
 @onready var footsteps = $AudioStreamPlayer2D
 @export var hitbox: Area2D
+@export var max_health := 3
 
 var is_attacking = false
+var health = 0
 
 func _ready():
+	health = max_health
 	hitbox_offset = hitbox.position
+	
+func take_damage(amount):
+	health -= amount
+	print("Player HP: ", health)
+	if health <= 0:
+		die()
+		
+func die():
+	print("Player died")
+	queue_free()
 
 func _physics_process(_delta) -> void:
 	hitbox.monitoring = false
